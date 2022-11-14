@@ -1,4 +1,4 @@
-Yeni bir satır ekleyip deneme işlemi gerçekleştiriyorum.
+
 
 <!doctype html>
 <html lang="tr">
