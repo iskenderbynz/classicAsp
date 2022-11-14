@@ -1,1 +1,50 @@
-classic asp ile geliştirilmiş scriptlere erişebilirsiniz.
+<!--#include file="include.asp" -->
+<!--#include file="bakim-kontrol.asp" -->
+<%
+baslat()
+%>
+<!doctype html>
+<html lang="tr">
+<head>
+	<!-- HEAD  -->
+		<title>500 iç sunucu hatası - 500 internal server error </title>
+		<meta name="title" content="<%=siteAdi%> - <%=siteSlogan%>" />
+		<meta name="description" content="<%=siteTanitim%>" />	 
+		<meta name="keywords" content="<%=siteEtiket%>" />
+		<!--#include file="head.asp" -->
+    <!-- HEAD bitis -->		
+</head>
+
+    <body>
+		<!-- yukleniyor -->
+			<!--#include file="yukleniyor.asp" -->
+		<!-- yukleniyor bitis -->        
+
+        <!-- icerik baslangic-->
+        <section class="overview-block-ptb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 iq-mt-80">
+                        <img class="img-fluid iq-mb-30" src="<%=webURL%>images/grafik/500.png" alt="">
+                        <h1 class="iq-tw-6"> Aooo! Bu sayfada bir sorun oluştu.. </h1>
+                        <div class="iq-mt-20">Sorunun detayları ile ilgili raporu oluşturduk... Bu durum neden oluştu bizde şaşırdık, bir sorun sebebi ile bu durum ile karşılaştınız. Aralıklarla yeniden erişmeyi deneyebilirsiniz.</div>
+                        <div class="iq-mt-20"><h5 class="iq-mt-10">Önerimiz; <a href="<%=webURL%>anasayfa" class="iq-font-green"> <i class="ion-ios-undo"></i> Ana Sayfa</a>'ya gidin.</h5></div>
+						<div class="iq-mt-20"><h5 class="iq-mt-10">hemen çözülmesi için sorun bildirin.<br>  <a href="<%=webURL%>bize-ulasin" class="iq-font-green"> <i class="ion-ios-undo"></i> Sorun Bildir</a></h5></div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 iq-mt-70 iq-robot">
+                        <img class="img-fluid" src="<%=webURL%>images/grafik/robot.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  icerik Bitis -->
+		
+    
+    <!-- SCRIPTS -->
+		<!--#include file="scripts.asp" -->
+	<!-- SCRIPTS bitis-->
+	
+</body>
+
+</html>
+<%bitir()%>
