@@ -11,6 +11,6 @@
 										
 											<!--end::Stats Widget 5-->
 										</div>
-									
+									bu dosyaya elleme ben işlem yapıyorum
 										
 								
